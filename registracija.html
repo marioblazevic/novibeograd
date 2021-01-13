@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Registracija</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+		<link rel="shortcut icon" href="slike/nbgd32x32.ico"/>
+		<meta  charset=utf-8>
+		<meta name="description" content="Ovde se možete registrovati na nas sajt.">
+		<meta name="keywords" content="registracija">
+		<meta name="author" content="Mario Blažević">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div id="logo_left">
+					<a href="index.html"><img src="slike/logo.png" alt="nbglogo"/></a>
+				</div>
+				<div id="wrapper_header_heading">
+					<a href="index.html"><h1>Novi Beograd</h1></a>
+				</div>
+				<div id="logo_right">
+					<a href="index.html"><img src="slike/logo.png" alt="nbglogo"/></a>
+				</div>
+				<div class="cleaner">
+				</div>
+			</header>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="istorija.html">Istorija</a></li>
+					<li><a href="galerija.html">Galerija</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+					<li><a href="oautoru.html">O autoru</a></li>
+				</ul>
+			</div>
+			<div id="wrapper_center">
+		<div id="wrapper_center_left_registracija">
+		<form method="post" action="1.php">
+	<table>
+		<tr>
+			<th colspan="2"><p>Registracija korisnika</p></th>
+		</tr>
+		<tr>
+			<td>Ime:</td>
+			<td><input type="text" name="tbIme" id="tbIme" 	placeholder="Obavezno uneti.."></td>
+		</tr>
+		<tr>
+			<td>Prezime:</td>
+			<td><input type="text" name="tbPrezime" id="tbPrezime" placeholder="Obavezno uneti.."></td>
+		</tr>
+		<tr>
+			<td>Datum rodjenja</td>
+			<td>
+				Dan:
+					<select name="ddIdan" id="DDIdan">
+						<option value="0">Izaberi...</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select><br/>
+				Mesec:
+					<select name="ddIMesec" id="ddIMesec">
+						<option value="0">Izaberi...</option>
+						<option value="1">Januar</option>
+						<option value="3">Februar</option>
+					</select>
+				Godina:
+					<select name="ddIGodina" id="ddIGodina">
+						<option value="0">Izaberi...</option>
+						<option value="1">1990</option>
+						<option value="2">1991</option>
+					</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Pol:</td>
+			<td>
+				<label for="muski">Muski</label><input type="radio" name="pol" id="muski"/><br/>
+				<label for="zenski">Zenski</label><input type="radio" name="pol" id="zenski" checked/>
+			</td>
+		</tr>
+		<tr>
+			<td>Korisnicko ime:</td>
+			<td><input type="text" name="tbKorisnickoIme" id="tbKorisnickoIme" placeholder="Obavezno uneti.."></td>
+		</tr>
+		<tr>
+			<td>Lozinka:</td>
+			<td><input type="password" name="pass" id="pass" placeholder="Obavezno uneti.."></td>
+		</tr>
+		<tr>
+			<td><input type="reset" name="ress" class="button" id="ress" value="Ponisti"></td>
+			<td><input type="submit" name="subb" class="button" id="subb" value="Registracija"></td>
+		</tr>
+	</table>
+	</form>
+				</div>
+				<div id="wrapper_center_right">
+					<div class="box">
+						<h3>Prijavi se:</h3>
+						<form method="post">
+						<table>
+								<tr>
+									<td>Email:</td>
+									<td><input type="email" name="usermail" required/>
+								</tr>
+								<tr>
+									<td>Lozinka:</td>
+									<td><input type="password" name="password" required/>
+								</tr>
+								
+							
+						</table>
+						<input type="submit" class="button" value="Prijava" name="prijava"/>
+						</form>
+						<a href="registracija.html"><p>Registruj se odmah!</p></a>
+					</div>
+					<div class="box">
+						<h3>Sportski centri</h3>
+						<ul>
+							<li><a href="http://www.kombankarena.rs/">Kombank arena</a></li>
+							<li><a href="http://www.scnovibeograd.rs/">SC 11. april</a></li>
+							<li><a href="http://www.scnovibeograd.rs/galerija/hala-sportova/">Hala sportova</a></li>
+						</ul>
+					</div>
+					<div class="box">
+						<h3>Pratite nas:</h3><br/>
+						<a href="http://www.facebook.com"><img src="slike/fb.png" alt="facebookicon"></a>
+						<a href="http://www.instagram.com"><img src="slike/insta.png" alt="instagramicon"/></a>
+						<a href="rss.xml"><img src="slike/rss.png" alt="rssicon"></a>
+						<a href="sitemap.xml"><img src="slike/sitemap.png" alt="sitemapicon"/></a>
+					</div>
+					<div class="box">
+						<h3>Pretraga</h3><br/>
+						<input type="search" name="pretraga"/>
+						<input type="button" value="Pretraga" class="button" name="button1"/> 	
+					</div>
+				</div>
+				<div class="cleaner">
+				</div>
+			</div>
+			<footer>
+				<p>&copy; 2016 copyright<a href="oautoru.html"> Mario Blažević</a></p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<rss version="2.0" encoding="UTF-8">
+	<channel>
+			  <title>Početna</title> 
+			  <description>Novi Beograd Zvanična stranica</description> 
+			  <link>http://novibeograd.ml/index.html</link> 
+			  <language>sr</language> 
+			  <author>Mario Blažević</author> 
+		<item>
+			  <title>Istorija Novog Beograda</title> 
+			  <description>Možete procitati istorijat Novog Beograda</description> 
+			  <link>http://novibeograd.ml/istorija.html</link> 
+			  <language>sr</language> 
+			  <author>Mario Blažević</author> 
+		</item>
+		<item>
+			  <title>Galerija</title> 
+			  <description>Možete istražiti galeriju nasih slika</description> 
+			  <link>http://novibeograd.ml/galerija.html</link> 
+			  <language>sr</language> 
+			  <author>Mario Blažević</author> 
+		</item>
+		<item>
+			  <title>Kontakt</title> 
+			  <description>Kontaktirajte našu opštinu</description> 
+			  <link>http://novibeograd.ml/kontakt.html</link> 
+			  <language>sr</language> 
+			  <author>Mario Blažević</author> 
+		</item>
+		<item>
+			  <title>O autoru</title> 
+			  <description>Sve informacije vezane za autora</description> 
+			  <link>http://novibeograd.ml/oautoru.html</link> 
+			  <language>sr</language> 
+			  <author>Mario Blažević</author> 
+		</item>
+	</channel>
+</rss>
